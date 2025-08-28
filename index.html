@@ -12,9 +12,10 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#hero">Home</a></li>
+                <li><a href="#hero">About Me</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Education</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -23,13 +24,15 @@
     <!-- Hero Section -->
     <section id="hero" class="hero">
         <div class="hero-left">
-            <h1>Hi, I'm George Garcia</h1>
-            <p>Aspiring Software Engineer building web applications with C#, ASP.NET Core, and more.</p>
+            <h1>About Me</h1>
+            <p>Hello, I’m George Garcia, a beginner Software Engineer passionate about building web applications that are both functional and visually engaging. 
+              My current experience includes C#, ASP.NET Core, HTML, CSS, and JavaScript. I take pride in writing clean, maintainable code and learning new technologies to improve the user experience. 
+              I’m excited to contribute to projects that challenge me and allow me to grow as a developer.</p>
             <a href="#projects" class="btn">View My Work</a>
         </div>
         <div class="hero-right">
             <div class="profile-card">
-                <img src="images/profilepic_portfolio.jpeg" alt="George Garcia">
+                <img src="" alt="George Garcia">
             </div>
         </div>
     </section>
@@ -39,7 +42,9 @@
         <h2>Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <img src="images/Screenshot 2025-08-14 at 6.42.43 PM.png" alt="Project 1">
+                  <video controls width="100%">
+                    <source src="/Users/georgegarcia/Desktop/repos/Final Project Presentation/2025-08-27 21.58.46 George Garcia's Zoom Meeting/Final Project Video Take 2.mp4" type="video/mp4">
+                </video>
                 <h3>Game Achievement Tracker</h3>
                 <p>A web application that allows users to track their video game progress by logging in, viewing games, and checking off achievements. Built as a full-stack portfolio project with a game-themed interface and user authentication.</p>
                 <a href="https://github.com/ectogag19/GameAchievementTracker/tree/main" target="_blank">View on GitHub</a>
@@ -62,38 +67,120 @@
 
     <!-- Skills Section -->
     <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills-grid">
-            <div class="skill">C#</div>
-            <div class="skill">ASP.NET Core</div>
-            <div class="skill">HTML & CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">SQL & SQLite</div>
-            <div class="skill">Git & GitHub</div>
+      <h2>Skills</h2>
+  
+      <div class="skill-category">
+          <h3>Front-End</h3>
+          <div class="skills-grid">
+              <div class="skill">
+                  <img src="images/HTML5 Logo.png" alt="HTML5 Icon" class="skill-icon">
+                  HTML
+              </div>
+              <div class="skill">
+                  <img src="images/CSS Logo.png" alt="CSS3 Icon" class="skill-icon">
+                  CSS
+              </div>
+              <div class="skill">
+                  <img src="images/JavaScript Logo.png" alt="JavaScript Icon" class="skill-icon">
+                  JavaScript
+              </div>
+          </div>
+      </div>
+
+      <div class="skill-category">
+          <h3>Back-End</h3>
+          <div class="skills-grid">
+              <div class="skill">
+                  <img src="images/CSharp Logo.png" alt="C# Icon" class="skill-icon">
+                  C#
+              </div>
+              <div class="skill">
+                  <img src="images/ASP.NET Logo.png" alt="C# Icon" class="skill-icon">
+                  ASP.NET
+              </div>
+              <div class="skill">
+                  <img src="images/SQL logo.png" alt="SQL Icon" class="skill-icon">
+                  SQL
+              </div>
+              <div class="skill">
+                  <img src="images/SQLite Logo.png" alt="SQL Icon" class="skill-icon">
+                  SQLite
+              </div>
+          </div>
+      </div>
+  
+      <div class="skill-category">
+          <h3>Tools & Other</h3>
+          <div class="skills-grid">
+              <div class="skill">
+                  <img src="images/Git Logo.png" alt="Git Icon" class="skill-icon">
+                  Git
+              </div>
+              <div class="skill">
+                  <img src="images/GitHub Logo.png" alt="Git Icon" class="skill-icon">
+                  GitHub
+              </div>
+              <div class="skill">
+                  <img src="images/VSCode Logo.png" alt="VS Code Icon" class="skill-icon">
+                  VS Code
+              </div>
+          </div>
+      </div>
+  </section>
+
+    <!-- Education Section -->
+    <section id="experience">
+      <h2>Education</h2>
+      <div class="experience-grid">
+  
+          <div class="experience-card">
+              <img src="images/True Coders Logo.png" alt="Job Icon" class="experience-icon">
+              <h3>TrueCoders: Advanced Technical Training</h3>
+              <p class="dates"> January 2025 - November 2025</p>
+              <p class="description">
+                Project-based training in programming languages and other technical skills, such as SQL, C#, .NET Core, Git, ASP.NET MVC, HTML, CSS, and JavaScript.
+                These skills were developed by building multiple C# and SQL projects in Visual Studio and Visual Studio Code
+                C# and SQL Projects were tracked in Git and GitHub for source control
+                Managed SQL databases using the CRUD operations in MySQL                
+              </p>
+          </div>
+  
+          <div class="experience-card">
+              <img src="images/SHSU Logo.png" alt="Job Icon" class="experience-icon">
+              <h3>Sam Houston State University</h3>
+              <p class="dates">August 2019 - May 2022</p>
+              <p class="description">
+                Bachelor of Science in Animal Science w/ Minor in Biology
+                Major GPA 3.72/4.0, Minor GPA 3.64/4.0, Overall GPA 3.74/4.0                
+              </p>
+
+          </div>
+          <div class="experience-card">
+              <img src="images/HCC Logo.png" alt="Job Icon" class="experience-icon">
+              <h3>Houston Community College</h3>
+              <p class="dates">August 2015 - May 2019</p>
+              <p class="description">
+                Associate’s in Science
+                Overall GPA 3.6/4.0               
+              </p>
         </div>
-    </section>
+      </div>
+     </section>
 
     <!-- Contact Section -->
     <section id="contact">
       <h2>Contact Me</h2>
-      <form>
-          <input type="text" placeholder="Your Name" required>
-          <input type="email" placeholder="Your Email" required>
-          <textarea placeholder="Your Message" required></textarea>
-          <button type="submit">Send Message</button>
-      </form>
-      
-      <div class="contact-info">
-          <p>Connect with me: 
-              <a href="https://github.com/ectogag19" target="_blank">GitHub</a> | 
-              <a href="https://www.linkedin.com/in/george-garcia-/" target="_blank">LinkedIn</a>
-          </p>
-          <p>Phone: (713) 805-7257</a></p>
-          <p>Email: georgegarcia05012001@gmail.com</a></p>
-          
-          
+      <div class="contact-card">
+          <div class="contact-info">
+              <p>Connect with me: 
+                  <a href="https://github.com/ectogag19" target="_blank">GitHub</a> | 
+                  <a href="https://www.linkedin.com/in/george-garcia-/" target="_blank">LinkedIn</a>
+              </p>
+              <p>Phone: (713) 805-7257</p>
+              <p>Email: georgegarcia05012001@gmail.com</p>
+          </div>
       </div>
-  </section>
+  </section>  
 
     <footer>
         <p>&copy; 2025 George Garcia</p>
