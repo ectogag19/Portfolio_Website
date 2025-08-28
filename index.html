@@ -1,47 +1,104 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="styles.css">
-    <title>George Garcia</title>
-  </head>
-  <body>
-    <section>
-      <img 
-        src="profilepic_portfolio.jpeg" 
-        alt="profile photo" 
-        id="main-photo"
-      />
-    </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Garcia | Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
     <header>
-      <h1>George Garcia</h1>
-      <nav class="links">
-        <ul>
-          <li><a href="about"></a>About Me</li>
-          <li><a href="projects"></a>Projects</li>
-          <li><a href="contact"></a>Contact</li>
-        </ul>
-      </nav>
+        <nav>
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <main>
-      <section id="about">
-        <h2>About Me</h2>
-        <p>
-          Hello, my name is George Garcia. I've recently developed a passion for
-          web developing and software engineering. I hope to build cool projects
-          using code and learning new skills.
-        </p>
-      </section>
-      <section id="projects">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-left">
+            <h1>Hi, I'm George Garcia</h1>
+            <p>Aspiring Software Engineer building web applications with C#, ASP.NET Core, and more.</p>
+            <a href="#projects" class="btn">View My Work</a>
+        </div>
+        <div class="hero-right">
+            <div class="profile-card">
+                <img src="images/profilepic_portfolio.jpeg" alt="George Garcia">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
         <h2>Projects</h2>
-        <p>placeholder (coming soon)</p>
-      </section>
-      <section id="contact">
-        <h2>Contact</h2>
-        <p>georgegarcia05012001@gmail.com</p>
-      </section>
-    </main>
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="images/Screenshot 2025-08-14 at 6.42.43 PM.png" alt="Project 1">
+                <h3>Game Achievement Tracker</h3>
+                <p>A web application that allows users to track their video game progress by logging in, viewing games, and checking off achievements. Built as a full-stack portfolio project with a game-themed interface and user authentication.</p>
+                <a href="https://github.com/ectogag19/GameAchievementTracker/tree/main" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+              <img src="" alt="Project 2">
+              <h3>Buest Buy App</h3>
+              <p>A web application that allows users to upload, view, and manage images through a SQL-backed database. It features basic CRUD operations, image display pages, and a simple image time-lapse viewer.</p>
+              <a href="https://github.com/ectogag19/BestBuyApp" target="_blank">View on GitHub</a>
+            </div>
+            <div class="project-card">
+                <img src="images/Taco Parser.png" alt="Project 2">
+                <h3>TacoParser</h3>
+                <p>A C# console application built with .NET Core that reads restaurant data from a CSV file, parses geolocation coordinates, and calculates the distance between them. Developed using test-driven development (TDD) to ensure robust handling of input data.</p>
+                <a href="https://github.com/ectogag19/TacoParser" target="_blank">View on GitHub</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill">C#</div>
+            <div class="skill">ASP.NET Core</div>
+            <div class="skill">HTML & CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">SQL & SQLite</div>
+            <div class="skill">Git & GitHub</div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+          <input type="text" placeholder="Your Name" required>
+          <input type="email" placeholder="Your Email" required>
+          <textarea placeholder="Your Message" required></textarea>
+          <button type="submit">Send Message</button>
+      </form>
+      
+      <div class="contact-info">
+          <p>Connect with me: 
+              <a href="https://github.com/ectogag19" target="_blank">GitHub</a> | 
+              <a href="https://www.linkedin.com/in/george-garcia-/" target="_blank">LinkedIn</a>
+          </p>
+          <p>Phone: (713) 805-7257</a></p>
+          <p>Email: georgegarcia05012001@gmail.com</a></p>
+          
+          
+      </div>
+  </section>
+
     <footer>
-      <p>George Garcia 2025</p>
+        <p>&copy; 2025 George Garcia</p>
     </footer>
-  </body>
+
+    <script src="js/script.js"></script>
+</body>
 </html>
