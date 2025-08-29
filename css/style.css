@@ -321,7 +321,6 @@ nav a:hover {
     box-shadow: 0 6px 15px rgba(0,0,0,0.4);
 }
 
-/* Contact info */
 #contact {
     padding: 4rem 2rem;
     text-align: center;
@@ -363,7 +362,6 @@ nav a:hover {
     color: #00d084;
 }
 
-/* Resume Button */
 .contact-info .btn {
     display: inline-block;
     margin-top: 1rem;
